@@ -1,0 +1,57 @@
+.nav {
+  position: relative;
+  top: 0;
+  z-index: 200;
+  width: 100%;
+  background-color: getColor(navColor);
+  color: getColor(textColor);
+  font-size: 1.8rem;
+  &__container {
+    span,
+    button {
+      color: #ffffff;
+      border-color: #ffffff;
+    }
+    .navbar-brand {
+      font-size: 3rem;
+      color: #ffffff;
+      letter-spacing: 0.5rem;
+    }
+    &__menu {
+      padding: 1rem;
+      ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        button,
+        li {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 10rem;
+          text-align: center;
+          button,
+          a {
+            border: none;
+            background: transparent;
+            padding: 1rem 1rem;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.8rem;
+          }
+          button:hover,
+          a:hover {
+            background-color: #6e640580;
+            color: #ffffff;
+          }
+          button.active,
+          a.active {
+            color: #ffffff;
+            background-color: #6e6405;
+          }
+        }
+      }
+    }
+  }
+}

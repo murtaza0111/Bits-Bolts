@@ -1,0 +1,38 @@
+.download {
+  font-size: 1.8rem;
+  &__section {
+    min-height: 50vh;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    &__article {
+      width: 100%;
+      margin: 1rem auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      &--btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        margin: 2rem auto;
+        background-color: #000000;
+        color: #ffffff;
+        width: 50%;
+        height: 5rem;
+        font-size: 1.8rem;
+        border-radius: 1rem;
+        border: none;
+        &:hover {
+          background-color: #6e6405;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
