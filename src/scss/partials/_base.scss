@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+  background: getColor(backgroundColor);
+  font-family: getFont(normalText);
+  
+}
+// header {
+//   width: 100%;
+//   flex-direction: column;
+//   justify-content: flex-start;
+//   align-items: center;
+//   padding: 3rem;
+//   font-size: 1.8rem;
+//   h1 {
+//     font-size: 5rem;
+//   }
+//   .breadcrumb {
+//     background: #ffffffed;
+//     padding: 1rem;
+//     a {
+//       color: #000000;
+//       text-decoration: none;
+//       .active {
+//         color: grey;
+//       }
+//     }
+//   }
+// }
