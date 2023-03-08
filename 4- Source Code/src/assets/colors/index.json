@@ -1,0 +1,48 @@
+{
+  "appColors": [
+    {
+      "name": "Bullet Shell",
+      "code": "#b5985a",
+      "for": ""
+    },
+    {
+      "name": "Zeus",
+      "code": "#231F20",
+      "for": "Word mark subheading"
+    },
+    {
+      "name": "Fantasy",
+      "code": "#f7f4ee",
+      "for": ""
+    },
+    {
+      "name": "Regent Grey",
+      "code": "#8d94a4",
+      "for": ""
+    },
+    {
+      "name": "Grey Chateau",
+      "code": "#9ca9ab",
+      "for": ""
+    },
+    {
+      "name": "Rangoon Green",
+      "code": "#1b1b1b"
+    },
+    {
+      "name": "Dull Brown",
+      "code": "#8d7249",
+      "for": ""
+    },
+    {
+      "name": "White",
+      "code": "#ffffff",
+      "for": ""
+    },
+    {
+      "name": "Black",
+      "code": "#000000",
+      "for": ""
+    }
+  ]
+}

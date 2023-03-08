@@ -1,0 +1,12 @@
+footer {
+  padding-top: 2rem;
+  background-color: #000000;
+  width: 100%;
+  font-size: 1.8rem;
+}
+
+@media (max-width: "700px") {
+  footer {
+    position: sticky;
+  }
+}
